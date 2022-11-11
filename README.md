@@ -70,7 +70,7 @@ You would also need VSCODE.
 
 ### LIVE LINK AND GITHUB REPOSITORY
 - [Link to repo](https://github.com/radhashyamsundardas/progressive--web-application-text-editor)
-- [Link to Heroku]()
+- [Link to Heroku](https://application-text-editor.herokuapp.com/)
 
 
 
