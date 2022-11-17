@@ -4,7 +4,7 @@
   "description": "> The name of the assignment is Progressive Web Applications (PWA): Text Editor.",
   "main": "index.js",
   "engines":{
-    "node": "16.x"
+    "node": "16"
   },
 
 
