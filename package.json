@@ -4,7 +4,7 @@
   "description": "> The name of the assignment is Progressive Web Applications (PWA): Text Editor.",
   "main": "index.js",
   "engines":{
-    "node": "18.x"
+    "node": "16.x"
   },
 
 
@@ -12,6 +12,7 @@
  
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "test": "echo\"error:no test specified\" && exit 1",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
