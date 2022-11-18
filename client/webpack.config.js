@@ -91,14 +91,14 @@ module.exports = () => {
         swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
-        // fingerprints: false,
-        // inject: true,
-        // name: "textEditor",
-        // short_name: "Jate",
-        // description: "This is a notetaker for js",
-        // id: "/",
-        // start_url: "/",
-        // publicPath: "/",
+        fingerprints: false,
+        inject: true,
+        name: "textEditor",
+        short_name: "Jate",
+        description: "This is a notetaker for js",
+        id: "/",
+        start_url: "/",
+        publicPath: "/",
       })
     ],
     module: {
