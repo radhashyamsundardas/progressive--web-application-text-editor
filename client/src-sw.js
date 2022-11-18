@@ -33,7 +33,7 @@ registerRoute(
     catchName: 'asset-cache',
     plugins:[
       new CacheableResponsePlugin({
-        statuses:[0,200],
+        statuses:[0, 200],
       })
     ]
   })
