@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
-const { verify } = require('crypto');
+// const { verify } = require('crypto');
 
 // TODO: Add and configure workbox plugins for a service worker and manifest file.
 // TODO: Add CSS loaders and babel to webpack.
@@ -91,14 +91,14 @@ module.exports = () => {
         swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
-        fingerprints: false,
-        inject: true,
-        name: "textEditor",
-        short_name: "Jate",
-        description: "This is a notetaker for js",
-        id: "/",
-        start_url: "/",
-        publicPath: "/",
+        // fingerprints: false,
+        // inject: true,
+        // name: "textEditor",
+        // short_name: "Jate",
+        // description: "This is a notetaker for js",
+        // id: "/",
+        // start_url: "/",
+        // publicPath: "/",
       })
     ],
     module: {
